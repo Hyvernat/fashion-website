@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>Fashion website Landing Page</title>
+</head>
+<body>
+    <header >
+        <a href="#" class="logo">Logo</a>
+        <a href="#" class="menu" onClick="toggleMenu();"><ion-icon name="grid-outline"></ion-icon></a>
+        <ul class="nav">
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">New collection</a></li>
+        </ul>
+        <ul class="nav-mobile" >
+            <li><a href="#">Women</a></li>
+            <li><a href="#">Men</a></li>
+            <li><a href="#">New collection</a></li>
+        </ul>
+    </header>
+    <!-- les banners -->
+    <div class="banner">
+        <!-- contenu -->
+        <div class="content">
+            <h1 class="title">Fashion</h1>
+            <a class="btn" href="#" onClick="toggleBanner();">Browse <ion-icon name="arrow-back-circle-outline"></ion-icon></a>
+            <a href="#" class="arrow"><ion-icon name="arrow-forward-circle-outline" onClick="toggleBanner();"></ion-icon></a>
+        </div>
+    </div>
+    <div class="banner-middle">
+        <!-- contenue -->
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper-women">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/women-1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-5.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-men">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/men-1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/men-2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/men-3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/men-4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/men-5.jpg" alt=""></div>
+                </div>
+            </div>
+            <div class="swiper-new">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="images/women-6.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-7.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-8.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-9.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="images/women-10.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="banner-right">
+        <!-- contenu -->
+        <h1>Spring</h1>
+        <span class="number">/01</span>
+        <div class="content">
+            <img src="images/fashion-girl-1.jpg" alt="">
+            <div class="description">
+                <h3>Seasonal</h3>
+                <span>Blog | 08 Aug 2023 | Trending</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, unde accusamus! Fugiat tenetur, odio adipisci perferendis dolore accusantium tempora eveniet, doloremque possimus, aspernatur enim consequuntur. Voluptatum perferendis suscipit esse aspernatur.</p>
+                <a href="#">Read more <ion-icon name="arrow-forward-outline"></ion-icon></a>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="copyright"> &copy; Copyright <strong><span>Hafsa Hyvernat</span></strong> All Right Reserved
+            </div>
+            <div class="credits">
+                <a href="#">Designed by Hafsa Hyvernat</a>
+            </div>
+        </div>
+        <div class="sci">
+            <li><ion-icon name="logo-facebook"></ion-icon></li>
+            <li><ion-icon name="logo-instagram"></ion-icon></li>
+            <li><ion-icon name="logo-youtube"></ion-icon></li>
+        </div>
+    </div>
+    
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+   
+</body>
+</html>
